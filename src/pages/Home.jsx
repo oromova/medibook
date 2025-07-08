@@ -1,7 +1,10 @@
+import DoctorsList from "../components/Doctors/DoctorsList";
+
 const Home = () => {
   return (
-    <div className="text-2xl font-semibold text-center mt-10 text-green-600">
-      Welcome to MediBook 🏥
+    <div>
+      <h1 className="text-2xl font-bold">Our Doctors</h1>
+      <DoctorsList />
     </div>
   );
 };

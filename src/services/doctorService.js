@@ -5,3 +5,4 @@ export const getDoctors = async () => {
   return response.data;
 };
 
+export default getDoctors;
